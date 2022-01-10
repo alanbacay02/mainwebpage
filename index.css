@@ -49,7 +49,10 @@
   z-index:10;
   max-width:100%; */
   /* background-color: #AA0202; */
-  background-color: #A60202;
+  /* background-color: #A60202; */
+  /* background-color: #610000; */
+  /* background-color: #550000; */
+  background-color: #610101;
   padding: 0 0 0 0;
   margin-bottom: 0px;
 }
@@ -125,13 +128,11 @@
 #main-content h2  {
   color: #00791B !important;
 }
-#main-content .col-lg-8 {
-  padding: 15px 30px 15px 30px;
-}
 
   /* Content Divider */
  hr {
   height: 0px;
   border: none;
   border-top: 1px solid green;
+  margin: 2px 0px 4px 0px;
  }
