@@ -53,8 +53,6 @@
   /* background-color: #610000; */
   /* background-color: #550000; */
   background-color: #610101;
-  padding: 0 0 0 0;
-  margin-bottom: 0px;
 }
 
 .navbar-brand img {
@@ -68,8 +66,6 @@
 
 .navbar-brand p {
   font-size: 2.6vmin;
-  margin-bottom: 0px;
-  padding-left:1px;
 }
 
 .navbar-nav>li>a {
@@ -92,9 +88,6 @@
   height: 25px;
 }
 
-.navbar-toggler {
-  padding: 0px 4px 0px 4px;
-}
 
 .navbar-toggler:hover, .navbar-toggler:focus {
   border-color: #D3D3D3;
@@ -140,4 +133,5 @@
    bottom: 20px;
    right: 20px;
    display: none;
+   padding: 0px 4px 2px 4px;
  }
