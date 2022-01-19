@@ -17,12 +17,12 @@
 
 <header> <!-- Contains Navbar-->
   <!-- Navbar -->
-   <nav class="navbar sticky-top navbar-expand-lg mb-0">
-    <div class="container-fluid" style="padding: 0px 5px 3px 5px;">
-      <a class="navbar-brand d-flex pb-0" href="#">
+   <nav class="navbar fixed-top navbar-expand-lg mb-0">
+    <div class="container-fluid px-2">
+      <a class="navbar-brand d-flex m-0 p-0" href="#">
           <img src="./assets/coeLogoSame.png" alt="coelogo">
-           <div class="flex-column" style="padding: 3px 5px 0px 5px;">
-             <h4>College of Engineering<p class="mb-0 ps-1">Mariano Marcos State University</p></h4>
+           <div class="d-flex px-1 justify-content-center align-items-center">
+             <h4>College of Engineering<p>Mariano Marcos State University</p></h4>
            </div>
           <img src="./assets/mmsuLogoSame.png" alt="coelogo">
      </a>
@@ -35,7 +35,7 @@
             <a class="nav-link nav-anchor" href="#about">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-anchor" href="#departments">Departments</a>
+            <a class="nav-link nav-anchor" href="#departments" >Departments</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://www.mmsu.edu.ph/admission/undergraduate">Admissions</a>
@@ -109,14 +109,14 @@
                   <p class="lead">The College of Engineering (COE) was formally established in 1986 although it has its beginnings in 1982 when civil, mechanical and electrical engineering started as curriculum offerings of the then MMSU Institute of Technology (IT). The courses were offered both in Laoag and Batac campuses under the supervision of the IT dean.</p>
                   <p class="lead">On May 29, 1985, the three-degree programs ceased to be supervised by IT and were called engineering degree programs. The program's curricula were then revised to suit the requisites of the board of civil, mechanical, and electrical engineering and the demands of the engineering profession as a whole.</p>
                   <p class="lead">It was in 1986 when the College of Engineering and Technology was established and engineering students and faculty were transferred to the Batac campus.</p>
-                  <div id="demo" class="collapse">
+                  <div id="show" class="collapse">
                   <p class='lead'>The college was renamed College of Engineering in 1993 and more engineering courses were offered: metallurgical, mining, computer, chemical, and electronics, and communications.</p>
                   <p class='lead'>With the advent of new technologies and innovations including opportunities in the field of material science and engineering, the Ceramics Engineering program was offered as a new program added to the existing engineering programs of COE on June 1, 1993.</p>
                   <p class='lead'>In 2010, the College welcomed the transfer of Agricultural Engineering from the then College of Agriculture and Forestry to the College of Engineering.</p>
                   <p class='lead'>The college has been providing relevant and quality engineering education that produces graduates who perform remarkably in agricultural, chemical, civil, electrical, electronics, and mechanical engineer licensure examinations.</p>
                   <p class='lead'>Several graduates have garnered places in the top 20 of their respective licensure examinations. Likewise, several programs were awarded top performers in licensure examinations.</p>
                   </div>
-                      <a class="float-end pe-2" href="#demo" data-bs-toggle="collapse" id="readMore">Show More</a>
+                      <a class="float-end pe-2" href="#show" data-bs-toggle="collapse" id="readMore">Show More</a>
                   <!-- <p class="m-0">This paragraph is designed to be <u>aligned center</u>. <b>Please pm me your thoughts</b> on <a href="https://www.facebook.com/" target="blank">Facebook</a> or <a href="https://discord.com/"  target="blank">Discord</a> about this style. <i>-Amebeliever</i></p> -->
             </div>
         </div>
@@ -138,6 +138,44 @@
             </div>
         </div>
     </div>
+</section>
+
+<!-- General Objectives section-->
+  <section id="general">
+    <div class="container px-4">
+        <div class="row gx-4 justify-content-center">
+            <div class="col-lg-8 py-3">
+                <h2>General Objectives</h2>
+                <hr/>
+                <ol>
+                  <li class="lead">To provide quality education relevant to the provincial, regional, and national development plans.</li>
+                  <li class="lead">To develop globally competetive professionals trained in various technological and engineering fields.</li>
+                  <li class="lead">To promote the developmnt of viable technology through scientific and technological research tapping the unrealized potentials of the country's resources.</li>
+                  <li class="lead">To pursue aggressive faculty development programs relevant to the needs of the different fields of specialization.</li>
+                  <li class="lead">To link the faculty and students with the mainstream of extension and production programs of the university and community by providing technical and engineeering assistance to special projects and works.</li>
+                  <li class="lead">To set-up service operations, develop, fabricate, and maintain equipment and facilities for the university in cooperation with the Physical Plant and general Services Division (PPGSD).</li>
+                </ol>
+                  </div>
+            </div>
+        </div>
+</section>
+
+<!-- Specific Objectives section-->
+<section class="bg-light" id="specific">
+  <div class="container px-4">
+      <div class="row gx-4 justify-content-center">
+          <div class="col-lg-8 py-3">
+              <h2>Specific Objectives</h2>
+              <hr/>
+              <ol>
+                <li class="lead">To produce graduates equipped with appropriate theoretical and practical knowledge and skills required for a total engineer.</li>
+                <li class="lead">To strengthen and enhance the engineering program to enable graduates to contribute to the development effort of the province, region, and the country.</li>
+                <li class="lead">To develop graduates who are qualified for global employment.</li>
+                <li class="lead">To encourage faculty to undergo continuing education programs and keep abreast with the latest engineering technological fields.</li>
+              </ol>
+                </div>
+          </div>
+      </div>
 </section>
 
 <!-- Department section-->
@@ -195,7 +233,6 @@
 
     </div> <!-- /.container -->
 </section> <!-- /.Section College Departments-->
-
 </main> <!--/.main-->
 
   <!-- Footer-->
@@ -252,6 +289,8 @@
     }
   });
 </script>
+
+
 
 </body>
 </html>
