@@ -1,353 +1,504 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Civil Engineering-PICE</title>
-    <style>/*Color Styling*/
-        :root{
-        --bg-color: #0101B1;
-        --fg-color: #F2F2F2;
-        --profile-color:#C4C4C4;
+    <style>
+        /*Color Styling*/
+        :root {
+            --bg-color: #0101B1;
+            --fg-color: #F2F2F2;
+            --profile-color: #C4C4C4;
         }
-        .college{
+
+        .college {
             background-color: var(--bg-color);
         }
-        .college-logo{
-        background: linear-gradient(to right, var(--bg-color) 40%,white 40%);
+
+        .college-logo {
+            background: linear-gradient(to right, var(--bg-color) 40%, white 40%);
         }
-        .card-profile{
+
+        .card-profile {
             background-color: var(--profile-color);
         }
-        .card-background{
+
+        .card-background {
             background-color: var(--bg-color);
         }
-        .card-foreground{
+
+        .card-foreground {
             background-color: var(--fg-color);
         }
-        ul li{
+
+        ul li {
             color: black;
         }
-        .org-description{
-            color:black;
-        }
-        #goal{
+
+        .org-description {
             color: black;
         }
+
+        #goal {
+            color: black;
+        }
+
         /* Button CSS */
-                .button1{
+        .button1 {
             background-color: #0101B1;
         }
+
         .button1:hover {
-          background-color: #04047e;
-          color: white;
+            background-color: #04047e;
+            color: white;
         }
+
         .button1:active {
-          background-color: #04047e;
+            background-color: #04047e;
         }
-        @media only screen and (min-width: 320px) and (max-width: 768px){
-       .college-logo{
-            background: white;
+
+        @media only screen and (min-width: 320px) and (max-width: 768px) {
+            .college-logo {
+                background: white;
             }
         }
     </style>
 </head>
+
 <body>
-<!--Banner Profile-->
-<header>
-    <div class="banner-one">
-        <div class="container">
-            <div class="banner">
-            <div class="college col-10"><h1>Civil Engineering</h1><p>Philippine Institute of Civil Engineers</p></div>
-            <div class="college-logo col-12"><img src="assets/PICE.png" alt="PICE college logo"></div>
+    <!--Banner Profile-->
+    <header>
+        <div class="banner-one">
+            <div class="container">
+                <div class="banner">
+                    <div class="college col-10">
+                        <h1>Civil Engineering</h1>
+                        <p>Philippine Institute of Civil Engineers</p>
+                    </div>
+                    <div class="college-logo col-12"><img src="assets/PICE.png" alt="PICE college logo"></div>
+                </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 
-<hr>
-<!--Organization Description-->
-<section class="org-description"> 
-    <section class="org-background">
-    <div class="m-container">
-        <div class="box"><h3>Background Information</h3></div>
-        <div class="sm-container">
-        <p class="org-description">The Bachelor of Science in Civil Engineering (BSCE) is a four-year degree program that aims to train highly qualified graduates who would become professionals in all phases of civil engineering with emphasis on planning, design, consultation, preparation of plans, specifications and estimates, erection, management, and supervision of the construction of roads, bridges, highways, railroads, airports and hangars, port works, canals, rivers and shore improvements, lighthouses, dry docks, buildings, fixed structures for irrigation, flood protection, drainage, water supply, and sewerage works. Prepares the graduates to practice specializations such as Structural Engineering and Construction Engineering and Management.</p>
-        </div>
-    </div>
+    <hr>
+    <!--Organization Description-->
+    <section class="org-description">
+        <section class="org-background">
+            <div class="m-container">
+                <div class="box">
+                    <h3>Background Information</h3>
+                </div>
+                <div class="sm-container">
+                    <p class="org-description">The Bachelor of Science in Civil Engineering (BSCE) is a four-year degree
+                        program that aims to train highly qualified graduates who would become professionals in all
+                        phases of civil engineering with emphasis on planning, design, consultation, preparation of
+                        plans, specifications and estimates, erection, management, and supervision of the construction
+                        of roads, bridges, highways, railroads, airports and hangars, port works, canals, rivers and
+                        shore improvements, lighthouses, dry docks, buildings, fixed structures for irrigation, flood
+                        protection, drainage, water supply, and sewerage works. Prepares the graduates to practice
+                        specializations such as Structural Engineering and Construction Engineering and Management.</p>
+                </div>
+            </div>
+        </section>
+        <section class="org-objectives">
+            <div class="m-container">
+                <div class="box">
+                    <h3>Program Objectives</h3>
+                    <div>
+                        <div class="sm-container">
+                            <p id="goal">MMSU CE graduates should be able to:</p>
+                            <ol>
+                                <li id="goal">Graduates will exhibit technical expertise in any of the different
+                                    specializations in Civil Engineering mindful of local and global needs and
+                                    challenges.</li>
+                                <li id="goal">Graduates will be able to work efficiently with multi-disciplinary and
+                                    multi-cultural teams exemplifying the University’s core values.</li>
+                                <li id="goal">Graduates will engage in life-long learning to address changing needs of
+                                    the profession and society.</li>
+                            </ol>
+                        </div>
+                    </div>
+        </section>
     </section>
-    <section class="org-objectives">
-        <div class="m-container">
-            <div class="box"><h3>Program Objectives</h3><div>
-            <div class="sm-container">
-            <p id="goal">MMSU CE graduates should be able to:</p>
-            <ol>
-                <li id="goal">Graduates will exhibit technical expertise in any of the different specializations in Civil Engineering mindful of local and global needs and challenges.</li>
-                <li id="goal">Graduates will be able to work efficiently with multi-disciplinary and multi-cultural teams exemplifying the University’s core values.</li>
-                <li id="goal">Graduates will engage in life-long learning to address changing needs of the profession and society.</li>
-            </ol>
-        </div>
-    </div>
-    </section>
-</section>
 
-<hr>
-<!--Information Profile Section-->
-<!--Department Chairperson-->
-<section class="information-profile">
-    <div class="rows">
-        <div class="card-one col-2">
-            <div class="container">
-                <div class="card">
-                    <div class="row">
-                        <div class="card-background"><p>Engr. Marlon T. Acoba</p></div>
+    <hr>
+    <!--Information Profile Section-->
+    <section class="information-profile">
+        <!--Faculty Department-->
+        <div class="rows dept-chair">
+            <div class="card-one col-2">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-background">
+                            <p>Engr. Marlon T. Acoba</p>
+                        </div>
                         <div class="card-foreground">
-                            <ul><li>Department Chairperson</li>
-                            <li> </li></ul></div>
-                        <div class="card-profile"></div>
-                    </div>
-                </div>
-            </div>
-        </div> 
-    </div>
-<!--Other Faculty-->
-    <div class="rows">
-        <!--one-->
-        <div class="card-one col-2">
-            <div class="container">
-                <div class="card">
-                    <div class="row">
-                        <div class="card-background"><p>Engr. Frederick R. Barut</p></div>
-                        <div class="card-foreground">
-                            <ul><li>Civil Engineering Faculty</li>
-                            <li></li></ul></div>
+                            <ul>
+                                <li>Department Chairperson</li>
+                                <li> </li>
+                            </ul>
+                        </div>
                         <div class="card-profile"></div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--two-->
-        <div class="card-one col-2">
-            <div class="container">
-                <div class="card">
-                    <div class="row">
-                        <div class="card-background"><p>Arch. Xeth Karlo Bielza</p></div>
+        <!--END Faculty Department-->
+
+        <!--Faculty First Row-->
+        <div class="rows">
+            <!--column one-->
+            <div class="card-one col-2">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-background">
+                            <p>Engr. Kei John Cyril G. Baria</p>
+                        </div>
                         <div class="card-foreground">
-                            <ul><li>Civil Engineering Faculty</li>
-                            <li> </li></ul></div>
+                            <ul>
+                                <li>Civil Engineering Faculty</li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="card-profile"></div>
+                    </div>
+                </div>
+            </div>
+            <!--column two-->
+            <div class="card-one col-2">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-background">
+                            <p>Engr. Frederick R. Barut</p>
+                        </div>
+                        <div class="card-foreground">
+                            <ul>
+                                <li>Civil Engineering Faculty</li>
+                                <li> </li>
+                            </ul>
+                        </div>
                         <div class="card-profile"></div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--Other Faculty-->
-    <div class="rows">
-        <!--one-->
-        <div class="card-one col-2">
-            <div class="container">
-                <div class="card">
-                    <div class="row">
-                        <div class="card-background"><p>Arch. Emerson V. Bolibol</p></div>
+        <!--End First Row-->
+
+        <!--Faculty Second Row-->
+        <div class="rows">
+            <!--column one-->
+            <div class="card-one col-2">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-background">
+                            <p>Arch. Xeth Karlo Bielza</p>
+                        </div>
                         <div class="card-foreground">
-                            <ul><li>Civil Engineering Faculty</li>
-                            <li></li></ul></div>
+                            <ul>
+                                <li>Civil Engineering Faculty</li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="card-profile"></div>
+                    </div>
+                </div>
+            </div>
+            <!--column two-->
+            <div class="card-one col-2">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-background">
+                            <p>Arch. Emerson V. Bolibol</p>
+                        </div>
+                        <div class="card-foreground">
+                            <ul>
+                                <li>Civil Engineering Faculty</li>
+                                <li> </li>
+                            </ul>
+                        </div>
                         <div class="card-profile"></div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--two-->
-        <div class="card-one col-2">
-            <div class="container">
-                <div class="card">
-                    <div class="row">
-                        <div class="card-background"><p>Engr. Jonas Paul B. Dela Cruz</p></div>
+        <!--End Second Row-->
+
+        <!--Faculty Third Row-->
+        <div class="rows">
+            <!--column one-->
+            <div class="card-one col-2">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-background">
+                            <p>Engr. Mark Kevin A. Cardona</p>
+                        </div>
                         <div class="card-foreground">
-                            <ul><li>Civil Engineering Faculty</li>
-                            <li>Sports Focal Person-COE</li>
-                            <li>Member-TWG for Testing Construction Materials</li>
-                            <li>Member- TWG for BAC</li></ul></div>
+                            <ul>
+                                <li>Civil Engineering Faculty</li>
+                                <li></li>
+                            </ul>
+                        </div>
                         <div class="card-profile"></div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!--Other Faculty-->
-    <div class="rows">
-        <!--one-->
-        <div class="card-one col-2">
-            <div class="container">
-                <div class="card">
-                    <div class="row">
-                        <div class="card-background"><p>Engr. Kenneth L. Edra</p></div>
+            <!--column two-->
+            <div class="card-one col-2">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-background">
+                            <p>Engr. Jonas Paul B. Dela Cruz</p>
+                        </div>
                         <div class="card-foreground">
-                            <ul><li>Civil Engineering Faculty</li>
+                            <ul>
+                                <li>Civil Engineering Faculty</li>
+                                <li>Sports Focal Person-COE</li>
                                 <li>Member-TWG for Testing Construction Materials</li>
-                                <li>Member- TWG for BAC</li></ul></div>
+                                <li>Member-TWG for BAC</li>
+                            </ul>
+                        </div>
                         <div class="card-profile"></div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--two-->
-        <div class="card-one col-2">
-            <div class="container">
-                <div class="card">
-                    <div class="row">
-                        <div class="card-background"><p>Engr. Jorge C. Escalona</p></div>
+        <!--End Third Row-->
+
+        <!--Faculty Fourth Row-->
+        <div class="rows">
+            <!--column one-->
+            <div class="card-one col-2">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-background">
+                            <p>Engr. Kenneth L. Edra</p>
+                        </div>
                         <div class="card-foreground">
-                            <ul><li>Civil Engineering Faculty</li>
-                            <li>Member- LUDIP Writing Team</li>
-                            <li>Member-TWG for Testing Construction Materials</li>
-                            <li>Member- TWG for BAC</li></ul></div>
-                        <div class="card-profile"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Other Faculty-->
-    <div class="rows">
-        <!--one-->
-        <div class="card-one col-2">
-            <div class="container">
-                <div class="card">
-                    <div class="row">
-                        <div class="card-background"><p>Engr. Russel John Guinto</p></div>
-                        <div class="card-foreground">
-                            <ul><li>Civil Engineering Faculty</li>
+                            <ul>
+                                <li>Civil Engineering Faculty</li>
                                 <li>Member-TWG for Testing Construction Materials</li>
-                               </ul></div>
-                        <div class="card-profile"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--two-->
-        <div class="card-one col-2">
-            <div class="container">
-                <div class="card">
-                    <div class="row">
-                        <div class="card-background"><p>Engr. Charles A. Mateo</p></div>
-                        <div class="card-foreground">
-                            <ul><li>Civil Engineering Affiliate Faculty</li>
-                                <li>Chairman-TWG for Testing Construction Materials</li>
                                 <li>Member- TWG for BAC</li>
-                            <li>Chief, Project Management</li></ul></div>
+                            </ul>
+                        </div>
+                        <div class="card-profile"></div>
+                    </div>
+                </div>
+            </div>
+            <!--column two-->
+            <div class="card-one col-2">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-background">
+                            <p>Engr. Jorge C. Escalona</p>
+                        </div>
+                        <div class="card-foreground">
+                            <ul>
+                                <li>Civil Engineering Faculty</li>
+                                <li>Member- LUDIP Writing Team</li>
+                                <li>Member-TWG for Testing Construction Materials</li>
+                                <li>Member- TWG for BAC</li>
+                            </ul>
+                        </div>
                         <div class="card-profile"></div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <!--End Fourth Row-->
 
-    <!--Other Faculty-->
-    <div class="rows">
-        <!--one-->
-        <div class="card-one col-2">
-            <div class="container">
-                <div class="card">
-                    <div class="row">
-                        <div class="card-background"><p>Engr. Reymart S. Pecpec</p></div>
+        <!--Faculty Fifth Row-->
+        <div class="rows">
+            <!--column one-->
+            <div class="card-one col-2">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-background">
+                            <p>Engr. Soolian G. Leong</p>
+                        </div>
                         <div class="card-foreground">
-                            <ul><li>Civil Engineering Faculty</li>
-                            <li>Member-TWG for Construction Materials </li></ul></div>
+                            <ul>
+                                <li>Civil Engineering Faculty</li>
+                                <li> </li>
+                            </ul>
+                        </div>
+                        <div class="card-profile"></div>
+                    </div>
+                </div>
+            </div>
+            <!--column two-->
+            <div class="card-one col-2">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-background">
+                            <p>Engr. Charles A. Mateo</p>
+                        </div>
+                        <div class="card-foreground">
+                            <ul>
+                                <li>Civil Engineering Faculty</li>
+                                <li>Member-TWG for Testing Construction Materials</li>
+                            </ul>
+                        </div>
                         <div class="card-profile"></div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--two-->
-        <div class="card-one col-2">
-            <div class="container">
-                <div class="card">
-                    <div class="row">
-                        <div class="card-background"><p>Engr. Marie Angeli F. Penaflor </p></div>
-                        <div class="card-foreground">
-                            <ul><li>Civil Engineering Faculty</li>
-                            <li>Coordinator - Student Development</li>
-                            <li>Cultural Focal Person-COE</li></ul></div>
-                        <div class="card-profile"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Other Faculty-->
-    <div class="rows">
-        <!--one-->
-        <div class="card-one col-2">
-            <div class="container">
-                <div class="card">
-                    <div class="row">
-                        <div class="card-background"><p>Engr. Melissa A. Pungtilan</p></div>
-                        <div class="card-foreground">
-                            <ul><li>Civil Engineering Faculty</li>
-                            <li> </li></ul></div>
-                        <div class="card-profile"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--two-->
-        <div class="card-one col-2">
-            <div class="container">
-                <div class="card">
-                    <div class="row">
-                        <div class="card-background"><p>Engr. Karen Joyce B. Santiago </p></div>
-                        <div class="card-foreground">
-                            <ul><li>Civil Engineering Faculty</li>
-                            <li>College Secretary</li>
-                       </ul></div>
-                        <div class="card-profile"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Other Faculty-->
-    <div class="rows">
-        <!--one-->
-        <div class="card-one col-2">
-            <div class="container">
-                <div class="card">
-                    <div class="row">
-                        <div class="card-background"><p>Engr. Vasco Vic G. Valdez</p></div>
-                        <div class="card-foreground">
-                            <ul><li>Civil Engineering Faculty</li>
-                            <li>Coordinator-COE Extension</li>
-                            <li>Adviser-PICE</li>
-                            <li>Member-Inspection Team for Infra Projects</li></ul></div>
-                        <div class="card-profile"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--two-->
-        <div class="card-one col-2">
-            <div class="container">
-                <div class="card">
-                    <div class="row">
-                        <div class="card-background"><p> </p></div>
-                        <div class="card-foreground">
-                            <ul><li></li>
-                            <li></li>
-                            <li></li></ul></div>
-                        <div class="card-profile"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+        <!--End Fifth Row-->
 
-<div class="buttoncontainer">
-    <button class="button button1" onclick="location='index.html'" type="button"><img class="buttonarrow" src="assets/arrow_left.png" alt="arrow_left.png">Go Back</button>
-</div>
+        <!--Faculty Sixth Row-->
+        <div class="rows">
+            <!--column one-->
+            <div class="card-one col-2">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-background">
+                            <p>Engr. Reymart S. Pecpec</p>
+                        </div>
+                        <div class="card-foreground">
+                            <ul>
+                                <li>Civil Engineering Faculty</li>
+                                <li>Member-TWG for Construction Materials </li>
+                            </ul>
+                        </div>
+                        <div class="card-profile"></div>
+                    </div>
+                </div>
+            </div>
+            <!--column two-->
+            <div class="card-one col-2">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-background">
+                            <p>Engr. Marie Angeli F. Peñaflor</p>
+                        </div>
+                        <div class="card-foreground">
+                            <ul>
+                                <li>Civil Engineering Faculty</li>
+                                <li>Coordinator - Student Development</li>
+                                <li>Cultural Focal Person-COE</li>
+                            </ul>
+                        </div>
+                        <div class="card-profile"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Sixth Row-->
+
+        <!--Faculty Seventh Row-->
+        <div class="rows">
+            <!--column one-->
+            <div class="card-one col-2">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-background">
+                            <p>Engr. Melissa A. Pungtilan</p>
+                        </div>
+                        <div class="card-foreground">
+                            <ul>
+                                <li>Civil Engineering Faculty</li>
+                                <li> </li>
+                            </ul>
+                        </div>
+                        <div class="card-profile"></div>
+                    </div>
+                </div>
+            </div>
+            <!--column two-->
+            <div class="card-one col-2">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-background">
+                            <p>Engr. Mar Viandreus I. Ruiz</p>
+                        </div>
+                        <div class="card-foreground">
+                            <ul>
+                                <li>Civil Engineering Faculty</li>
+                                <li> </li>
+                            </ul>
+                        </div>
+                        <div class="card-profile"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Seventh Row-->
+
+        <!--Faculty Eigth Row-->
+        <div class="rows">
+            <!--column one-->
+            <div class="card-one col-2">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-background">
+                            <p>Engr. Karen Joyce B. Santiago</p>
+                        </div>
+                        <div class="card-foreground">
+                            <ul>
+                                <li>Civil Engineering Faculty</li>
+                                <li>College Secretary </li>
+                            </ul>
+                        </div>
+                        <div class="card-profile"></div>
+                    </div>
+                </div>
+            </div>
+            <!--column two-->
+            <div class="card-one col-2">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-background">
+                            <p>Engr. John Carlo R. Tabije</p>
+                        </div>
+                        <div class="card-foreground">
+                            <ul>
+                                <li>Civil Engineering Faculty</li>
+                                <li> </li>
+                            </ul>
+                        </div>
+                        <div class="card-profile"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Eigth Row-->
+
+        <!--Faculty Ninth Row-->
+        <div class="rows">
+            <!--column one-->
+            <div class="card-one col-2">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-background">
+                            <p>Engr. Vasco Vic G. Valdez</p>
+                        </div>
+                        <div class="card-foreground">
+                            <ul>
+                                <li>Civil Engineering Faculty</li>
+                                <li>Coordinator-COE Extension</li>
+                                <li>Adviser-PICE</li>
+                                <li>Member-Inspection Team for Infra Projects</li>
+                            </ul>
+                        </div>
+                        <div class="card-profile"></div>
+                    </div>
+                </div>
+            </div>
+            <!--column two-->
+        </div>
+        <!--End Ninth Row-->
+    </section>
+
+    <div class="buttoncontainer">
+        <button class="button button1" onclick="location='index.html'" type="button"><img class="buttonarrow"
+                src="assets/arrow_left.png" alt="arrow_left.png">Go Back</button>
+    </div>
 
 </body>
+
 </html>

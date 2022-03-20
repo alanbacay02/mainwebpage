@@ -105,7 +105,13 @@ h3{
     padding-bottom: 10px;
 }
 /*Information Card*/
-
+/*Change
+--Added .information-profile for better padding of card profiles--need second opinion
+*/
+.information-profile{
+    padding-left: 5%;
+    padding-right: 5%;
+}
 .card-one{
     /*background: blueviolet;*/
     height: auto;
@@ -178,13 +184,13 @@ ul li{
 
 .button {
     font-size: 23px;
-  border: 3px solid;
-  border-radius: 12px;
-  color: white;
-  padding: 5px 20px 5px 20px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  text-align: center;
+    border: 3px solid;
+    border-radius: 12px;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-align: center;
 }
 
 .buttonarrow {

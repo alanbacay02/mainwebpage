@@ -1,6 +1,7 @@
 
 body {
-  padding-top: 52px;
+  margin: 0;
+  padding-top: 48px;
 }
 
 * {
@@ -16,18 +17,52 @@ body {
   /* background-color: #A60202; */
   /* background-color: #610000; */
   /* background-color: #550000; */
-  background-color: #610101;
+  background-color: #770202;
+  /* background-color: #610101; darker */ 
 }
 
-.navbar-brand img {
-  height: 2.4rem;
-  width: 100%;
+.ribbon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-logo {
+  width: 80px;
+  height: auto;
+}
+
+.ribbon-1 {
+  width: 100px;
+  height: 90px;
+  background: #610101;
+  /* background: #770202; lighter */
+  top: 0px;
+  left: 30px;
+}
+
+.ribbon-1:after {
+  display: inline-block;
+  height: 50;
+  width: 50;
+  content: "";
+  position: absolute;
+  top: 90px;
+  bottom: 0px;
+  left: 0px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  /* border-top: 20px solid #770202; lighter*/
+  border-top: 20px solid #610101;
+  border-bottom: 50px solid transparent;
 }
 
 .navbar-brand h4 {
   font-size: 1rem;
   margin: 0px;
   color: white;
+  padding-left: 140px;
 }
 
 .navbar-brand p {
@@ -73,7 +108,7 @@ body {
 .carousel-item {
  height:32rem;
  position: relative;
- background-position: bottom;
+ background-position: center;
  background-size:cover;
  color: white !important;
 }
@@ -127,11 +162,11 @@ body {
  /* Desktops @1440p */
  @media only screen and (min-width: 1921px){
    #slide2 {
-     background-image: url(./assets/football1B.jpg);
+     background-image: url(./assets/Volleyball\ Maroons\ 3.jpg);
    }
    .carousel-item {
      height: 50rem;
-     background-position: bottom;
+     background-position: top;
    }
    .col-md-auto {
      width: auto;
@@ -142,17 +177,13 @@ body {
  /* Tablets and Desktops @1080p */
  @media only screen and (min-width: 768px) and (max-width: 1920px){
    #slide2 {
-     background-image: url(./assets/football1B.jpg);
+     background-image: url(./assets/Volleyball\ Maroons\ 3.jpg);
    }
    .navbar-brand h4 {
     font-size: 1.3rem;
    }
    .navbar-brand p {
     font-size: 0.89rem;
-   }
-   .navbar-brand img {
-    height: 2.84rem;
-    width: 100%;
    }
    .col-md-auto {
      width: auto;
@@ -161,9 +192,37 @@ body {
  }
 
  /* Mobile, Tablets and smaller devices*/
- @media only screen and (min-width: 320px) and (max-width: 768px){
+ @media only screen and (max-width: 768px){
    #slide2 {
-     background-image: url(./assets/football1A.jpg);
+     background-image: url(./assets/Volleyball\ Maroons\ 3.jpg);
+   }
+   .navbar-logo {
+     width: 42px;
+     height: auto;
+   }
+   .ribbon-1 {
+     width: 40px;
+     height: 45px;
+     background: #770202;
+     /* background: #770202; lighter */
+     top: 0px;
+     left: 15px;
+   }
+   .ribbon-1:after {
+     display: inline-block;
+     content: "";
+     position: absolute;
+     top: 60px;
+     bottom: 0px;
+     left: 0px;
+     border-left: 35px solid transparent;
+     border-right: 35px solid transparent;
+     /* border-top: 20px solid #770202; lighter*/
+     border-top: 10px solid transparent;
+     border-bottom: 35px solid transparent;
+   }
+   .navbar-brand h4 {
+     padding-left: 50px;
    }
    .carousel-item {
        height: 22rem;
