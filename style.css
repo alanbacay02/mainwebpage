@@ -49,6 +49,11 @@
 .col-10{
     padding: 15px;
     flex-basis: 83.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 .col-10 p{
     padding: 0px;
@@ -202,12 +207,6 @@ ul li{
 /* End of Go Back Button CSS */
 /* --- MEDIA QUERIES --- */
 @media only screen and (min-width:713px) and (max-width: 996px) {
-    .college.col-10{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
     .rows.dept-chair {
         flex-direction: column;
     }
