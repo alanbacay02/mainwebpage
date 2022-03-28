@@ -150,6 +150,12 @@ h3{
     right: 10%;
     top: 10%;
 }
+#profiles{
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
 .rows{
     display: flex;
     flex-direction: row;
