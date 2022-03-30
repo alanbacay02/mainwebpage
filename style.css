@@ -172,7 +172,7 @@ p{
     padding-top: 8px;
     padding-left: 25px;
     margin: 0;
-    font-size: 21px;
+    font-size: 1.3125rem;
 } 
 ul{
     padding: 20px;
@@ -212,6 +212,17 @@ ul li{
 }
 /* End of Go Back Button CSS */
 /* --- MEDIA QUERIES --- */
+@media only screen and (min-width:1024px) and (max-width: 1256px) {
+    p{
+        font-size: 1.0rem;
+    }
+    ul li{
+        font-size: 0.9rem;
+    }
+    
+}
+
+/**/
 @media only screen and (min-width:713px) and (max-width: 996px) {
     .rows.dept-chair {
         flex-direction: column;
@@ -247,6 +258,7 @@ ul li{
         width: 140px;
         transform: translate(30px);
     }
+    
 }
 
 @media only screen and (min-width:468px) and (max-width: 712px) {
@@ -318,6 +330,9 @@ ul li{
         height: 140px;
         width: 140px;
         transform: translate(10px);
+    }
+    ul li{
+        font-size: 0.9rem;
     }
 }
 
@@ -392,6 +407,9 @@ ul li{
     }
     ul{
         padding: 10px;
+    }
+    ul li{
+        font-size: 0.9rem;
     }
     .card-profile{
         height: 115px;
