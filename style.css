@@ -220,7 +220,10 @@ ul li{
         font-size: .875rem;
     }
     ul li{
-        font-size: 0.875rem;
+        font-size: .875rem;
+    }
+    #goal{
+        font-size: 1.1875rem;
     }
     
 }
@@ -260,6 +263,9 @@ ul li{
         height: 140px;
         width: 140px;
         transform: translate(30px);
+    }
+    #goal{
+        font-size: 1.1875rem;
     }
     
 }
@@ -335,7 +341,10 @@ ul li{
         transform: translate(10px);
     }
     ul li{
-        font-size: 0.9rem;
+        font-size: 0.875rem;
+    }
+    #goal{
+        font-size: 0.9375rem;
     }
 }
 
@@ -412,11 +421,14 @@ ul li{
         padding: 10px;
     }
     ul li{
-        font-size: 0.9rem;
+        font-size: 0.875rem;
     }
     .card-profile{
         height: 115px;
         width: 115px;
         transform: translate(5px);
+    }
+    #goal{
+        font-size: 0.9375rem;
     }
 }
