@@ -5,7 +5,8 @@ body {
 }
 
 * {
-  font-family: "Montserrat";
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar {
@@ -17,8 +18,8 @@ body {
   /* background-color: #A60202; */
   /* background-color: #610000; */
   /* background-color: #550000; */
-  background-color: #770202;
-  /* background-color: #610101; darker */ 
+  /* background-color: #770202; */
+  background-color: #610101;
 }
 
 .ribbon {
@@ -36,8 +37,8 @@ body {
 .ribbon-1 {
   width: 100px;
   height: 90px;
-  background: #610101;
-  /* background: #770202; lighter */
+  /* background: #610101; */
+  background: #770202;
   top: 0px;
   left: 30px;
 }
@@ -53,23 +54,25 @@ body {
   left: 0px;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  /* border-top: 20px solid #770202; lighter*/
-  border-top: 20px solid #610101;
+  border-top: 20px solid #770202;
+  /* border-top: 20px solid #610101; */
   border-bottom: 50px solid transparent;
 }
 
 .navbar-brand h4 {
+  font-family: 'Cormorant SC', serif;
   font-size: 1rem;
-  margin: 0px;
+  margin-top: 0px;
   color: white;
-  padding-left: 140px;
+  padding-left: 135px;
 }
 
 .navbar-brand p {
-  font-size: 0.69rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.66rem;
   color: white;
   margin: 0px;
-  padding-left: 2px;
+  padding-left: 3.5px;
 }
 
 .navbar-nav>li>a {
@@ -183,7 +186,7 @@ body {
     font-size: 1.3rem;
    }
    .navbar-brand p {
-    font-size: 0.89rem;
+    font-size: 0.70rem;
    }
    .col-md-auto {
      width: auto;
@@ -203,8 +206,8 @@ body {
    .ribbon-1 {
      width: 40px;
      height: 45px;
-     background: #770202;
-     /* background: #770202; lighter */
+     /* background: #770202; */
+     background: transparent;
      top: 0px;
      left: 15px;
    }
@@ -217,12 +220,15 @@ body {
      left: 0px;
      border-left: 35px solid transparent;
      border-right: 35px solid transparent;
-     /* border-top: 20px solid #770202; lighter*/
-     border-top: 10px solid transparent;
+     border-top: 20px solid transparent;
      border-bottom: 35px solid transparent;
    }
    .navbar-brand h4 {
      padding-left: 50px;
+   }
+   .navbar-brand p {
+     padding-left: 1px;
+     font-size: 0.57rem;
    }
    .carousel-item {
        height: 22rem;
